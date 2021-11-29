@@ -1,0 +1,34 @@
+body {
+    background-color: rgb(245, 203, 209);
+}
+
+.top {
+    background-image: url("");
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+}
+
+.photo {
+    max-width: 400px;
+    max-height: 500px;
+}
+
+.photo img {
+    opacity: 0.8;
+}
+
+.name {
+    background-color: royalblue
+}
+
+p#fancy {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: yellowgreen;
+}
+
+.hobbies {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
