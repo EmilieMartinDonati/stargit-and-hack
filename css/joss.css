@@ -1,18 +1,24 @@
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(230deg, rgba(2,0,36,1) 0%, rgba(0,0,0,0.404096672848827) 37%);
+}
+
 section{
     display: flex;
     margin: 10rem 0 0 5rem ;
 }
 
 section h1{
+    color: #6e2424;
     margin-left: 5rem;
 }
 
 section img{
     height: 400px;
     width: auto;
-    background: linear-gradient(145deg, #CACCCF, #FFFFFF);
+    background: linear-gradient(145deg, #6e2424, #535353);
     border-radius: 15%;
-    box-shadow: 9.91px 9.91px 15px #D9DADE, -9.91px -9.91px 15px #FFFFFF;
+    box-shadow: 9.91px 9.91px 15px #5C5C5C, -9.91px -9.91px 15px #6E6E6E;
 }
 
 .presentation p{
@@ -29,3 +35,16 @@ a{
     border-radius: 15%;
     
 }
+
+.hobbie{
+    display: flex;
+    margin: 50px;
+    text-align: center;
+}
+
+.hobbie article{
+    max-width: 400px;
+}
+
+
+
