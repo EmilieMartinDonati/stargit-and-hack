@@ -3,18 +3,35 @@ section{
     flex-direction: column;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    border: 1px solid black;
+    padding: .4rem;
+}
+
 .link, h1{
+    margin-top: 1rem;
     text-align: center;
 }
 
 .image{
     margin-top: 5rem;
     display: flex;
-    margin-right: 40px;
+    justify-content: center;
 }
 
 img{
-    width: auto;
-    height: 400px;
-    
+    width: 270px;
+    height: auto;
+}
+img:nth-child(2){
+    margin-left: 10px;
+}
+
+p{
+    width:50% ;
+    margin: auto;
+    text-align: center;
 }
